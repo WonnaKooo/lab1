@@ -1,2 +1,5 @@
+from flask import Flask
 
-print("hello")
+app = Flask(__name__)
+
+import Project.views
